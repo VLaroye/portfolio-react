@@ -3,8 +3,7 @@ import styled from 'styled-components';
 const MenuContainer = styled.div`
     min-height: 100vh;
     width: 100%;
-    background-color: red;
-    opacity: 0.4;
+    background-color: white;
     position: absolute;
     top: 0;
     left: 0;
