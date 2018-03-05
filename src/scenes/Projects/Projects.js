@@ -2,10 +2,10 @@ import React from 'react';
 
 import Layout from '../../components/Layout/Layout';
 
-const homePage = (props) => (
+const projects = (props) => (
     <Layout>
-        <div>Accueil</div>
+        <div>Realisations</div>
     </Layout>
 );
 
-export default homePage;
+export default projects;

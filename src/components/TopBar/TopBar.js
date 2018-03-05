@@ -9,7 +9,7 @@ import MenuToggler from './MenuToggler/MenuToggler';
 
 const topBar = (props) => (
     <TopBarContainer>
-        <Logo>Logo</Logo>    
+        <Logo>VL</Logo>    
         <MenuToggler icon={faBars} onClick={props.toggleMenu} />
     </TopBarContainer>
 )

@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 const Logo = styled.p`
-    height: 100%;
+    position: relative;
+    left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
 `;
 
 export default Logo;
