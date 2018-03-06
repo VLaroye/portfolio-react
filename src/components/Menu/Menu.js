@@ -16,16 +16,16 @@ const menu = (props) => (
         <ClosingButton icon={faTimes} onClick={props.toggleMenu} />
         <MenuItems>
             <MenuItem>
-                <Link to="/" >Home</Link> 
+                <Link to="/" onClick={props.toggleMenu} >Home</Link> 
             </MenuItem>
             <MenuItem>
-                <Link to="/presentation" >Présentation</Link>
+                <Link to="/presentation" onClick={props.toggleMenu} >Présentation</Link>
             </MenuItem>
             <MenuItem>
-                <Link to="/realisations" >Réalisations</Link>
+                <Link to="/realisations" onClick={props.toggleMenu} >Réalisations</Link>
             </MenuItem>
             <MenuItem>
-                <Link to="/contact" >Contact</Link>
+                <Link to="/contact" onClick={props.toggleMenu} >Contact</Link>
             </MenuItem>
         </MenuItems>
     </MenuContainer>

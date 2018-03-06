@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const MenuItems = styled.ul`
-    height: 20vh;
+    min-height: 20vh;
     margin: 0;
     padding: 0;
     list-style: none;
