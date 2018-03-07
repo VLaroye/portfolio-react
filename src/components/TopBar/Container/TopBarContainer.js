@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const topBarContainer = styled.header`
-    height: 4em;
-    border-bottom: 2px solid lightgray;
+    height: 7%;
+    border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
 `;
