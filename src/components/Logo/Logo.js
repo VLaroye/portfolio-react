@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-const Logo = styled.p`
-    position: relative;
-    left: 5%;
-    margin-top: auto;
-    margin-bottom: auto;
+const Logo = styled.img`
+    max-width: 100px;
+    height: 70%;
+    margin: auto;
+    margin-left: 5%;
 `;
 
 export default Logo;

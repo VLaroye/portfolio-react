@@ -8,6 +8,11 @@ const SideMenuItem = styled.li`
     border: 1px dashed orangered;
     text-align: center;
     cursor: pointer;
+
+    &:hover {
+        color: white;
+        background-color: orangered;
+    }
 `;
 
 export default SideMenuItem;

@@ -7,7 +7,7 @@ import SideMenuItem from './components/SideMenuItems/SideMenuItem/SideMenuItem';
 
 // FONTAWESOME
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faLongArrowAltUp } from '@fortawesome/fontawesome-free-solid';
+import { faArrowUp } from '@fortawesome/fontawesome-free-solid';
 
 class SideMenu extends Component {
     render() {
@@ -30,7 +30,7 @@ class SideMenu extends Component {
                             <p>Fin : {endingDate.getMonth()} / {endingDate.getFullYear()}</p>
                         </SideMenuItem>
 
-                        {(index < this.props.projects.length - 1) ? <FontAwesomeIcon icon={ faLongArrowAltUp } size='3x' /> : null}
+                        {(index < this.props.projects.length - 1) ? <FontAwesomeIcon icon={ faArrowUp } size='3x' /> : null}
                     </Fragment>
                 )
             });

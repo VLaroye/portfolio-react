@@ -4,7 +4,7 @@ const SideMenuContainer = styled.div`
     min-width : 25%;
     max-width: 25%;
     height: 100%;
-    border-right: 1px solid black;
+    box-shadow: 8px 2px 15px lightgray;
     overflow-y: auto;
     text-align: center;
 
@@ -14,13 +14,13 @@ const SideMenuContainer = styled.div`
     }
 
     ::-webkit-scrollbar {
-	    width: 10px;
+        width: 7px;
 	    background-color: #F5F5F5;
     }
 
     ::-webkit-scrollbar-thumb {
-	    background-color: #000000;
-	    border: 2px solid #555555;
+        background-color: gray;
+        border-radius: 2em;
     }
 
     h3 {

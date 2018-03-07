@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { faCaretRight } from '@fortawesome/fontawesome-free-solid';
 
+import logo from '../../assets/img/logo.png';
+
 const Container = styled.div`
     width: 100%;
     height: 100%;
@@ -18,20 +20,21 @@ const Container = styled.div`
 
 const StatusIndicatorContainer = styled.div`
     position: absolute;
-    min-width: 7%;
+    min-width: 5%;
     top: 5%;
     left: 5%;
     display: flex;
     justify-content: space-between;
     
     p {
+        font-family: 'Anton', sans-serif;
         margin: 0;
     }
 `;
 
 const StatusIndicator = styled.div`
     background-color: green;
-    box-shadow: 2px 0 2px lightgray inset;
+    box-shadow: 0 0 20px lightgray inset;
     width: 20px;
     height: 20px;
     border-radius: 10px;
@@ -59,6 +62,7 @@ const MenuItems = styled.ul`
 
 const MenuItem = styled.li`
     a {
+        padding: 5px;
         color: inherit;
         text-decoration: none;
         border-bottom: 1px dashed orangered;
@@ -66,6 +70,16 @@ const MenuItem = styled.li`
         letter-spacing: 0.1em;
         font-size: 1.5em;
     }
+
+    a:hover {
+        color: white;
+        background-color: orangered;
+    }
+`;
+
+const Logo = styled.img`
+    max-height: 20%;
+    position: relative;
 `;
 
 const homePage = (props) => (
@@ -74,7 +88,7 @@ const homePage = (props) => (
             <StatusIndicator />
             <p>Disponible</p>
         </StatusIndicatorContainer>
-        <p>VL</p>
+        <Logo src={logo} />
         <Menu>
             <MenuItems>
                 <MenuItem><Link to="/presentation">Présentation <FontAwesomeIcon icon={faCaretRight} /></Link></MenuItem>

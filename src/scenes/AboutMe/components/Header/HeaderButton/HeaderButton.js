@@ -7,7 +7,7 @@ const headerButton = styled.button`
     font-family: 'Anton';
     font-size: 1.2em;
     letter-spacing: 0.3em;
-    border: 3px solid black;
+    border: 3px dashed black;
     background-color: white;
     color: black;
     text-transform: uppercase;
